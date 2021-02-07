@@ -1,0 +1,40 @@
+=<!doctype html>
+<html>
+<head>
+<title>Hannahs Website</title>
+<meta name="ed tech tools" content="projects">
+<meta name="list" content="Twine">
+</head>
+
+<body>
+<p>I have listed some of my favorite <a href="ncstate-eci519.github.io/my-website-HannahAlphin/.html">Ed Tech Tools</a> and want to provide examples of how I have used them in projects throughout college.</p>
+
+
+<h2>Projects</h2>
+
+<ul>
+<li><b>Video Research Project:</b>
+As part of an Independent Study, researched the true crime community on YouTube and used Camtasia to compose a fourteen-minute video summarizing findings</li>
+<li><b>
+Podcast:</b>
+Used Audacity to compose a podcast that shares my personal experience and the history of a specific place on UNC-Chapel Hill’s campus</li>
+<li><b>Twine Project:
+</b>
+Worked in a group to collect tweets in Google Spreadsheet related to the Silent Sam event at UNC-Chapel Hill.
+Then used Twine to create an individual, interactive story that emphasizes the history and significance of the event
+
+</li>
+<li><b>Explainer Video
+:</b>
+Used Powtoon to compose an animated explainer video on the topic of computing security</li>
+</ul>
+<p>
+If you like to write and are a fan of non-linear storytelling or games, <a href="https://twinery.org/" target="_blank">Twine</a> is an exciting and free tool to check out!</p>
+
+<img src="https://miro.medium.com/max/3600/1*eEuL40FvE5MQs0U1WYUtBQ.png" alt="Twine Image" width="500"
+         height="400">
+
+<p>As I learn about more Ed Tech Tools, I appreciate how they can be used to develop educational material that is interactive and engaging.</p>
+
+</body>
+</html>
