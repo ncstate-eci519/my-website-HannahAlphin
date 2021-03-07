@@ -1,11 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&family=Roboto:wght@300&display=swap');
 
     body {
+        @media (prefers-color-scheme: dark){
+            html{
+                background-color: white;
+                color: black;
+            }
   font-family: 'Open Sans Condensed', sans-serif;
   font-family: 'Times New Roman' ,
          Times, serif; 
-  color: black;
-  background-color: #1643;}
+  color: black;}
   li, p{
 line-height: 1.5;}
 h1 {
@@ -29,15 +33,9 @@ nav{
     display: inline;
       font-family: Lato;
     font-size: 16px;
-    display: flex;
     justify-content: space-between;
     padding: 0 17px;
   }
-@media (prefers-color-scheme: dark){
-	html{
-		background-color: black;
-		color: white;
-	}
 <<<<<<< HEAD
 }
 =======
