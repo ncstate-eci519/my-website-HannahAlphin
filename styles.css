@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&family=Roboto:wght@300&display=swap');
 
     body {
-        @media (prefers-color-scheme: dark){
             html{
                 background-color: white;
                 color: black;
