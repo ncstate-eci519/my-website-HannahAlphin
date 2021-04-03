@@ -20,7 +20,7 @@ margin-left: auto;
 margin-right: auto;
 width: 60%;}
 nav{
-    background-color: #bfe6ff;
+    background-color:#004EA4;
     padding: 2px;
   }
   
@@ -28,14 +28,10 @@ nav{
     list-style-type: none;
     display: inline;
       font-family: Lato;
+      color: #FFFF;
     font-size: 16px;
     display: flex;
     justify-content: space-between;
+    background-color: #004EA4;
     padding: 0 17px;
   }
-@media (prefers-color-scheme: dark){
-	html{
-		background-color: black;
-		color: white;
-	}
-}
