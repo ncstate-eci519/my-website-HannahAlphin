@@ -24,7 +24,7 @@ margin-left: auto;
 margin-right: auto;
 width: 60%;}
 nav{
-    background-color:#black;
+    background: color #000;;
     font-family: 'Times New Roman', Times, serif;
     color: #FFFF;
     padding: 2px;
