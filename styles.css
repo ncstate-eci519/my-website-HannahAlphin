@@ -1,24 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&family=Roboto:wght@300&display=swap');
 
-<style>
-a:link, a:visited {
-  background-color: #FFFF;
-  color: black;
-  padding: 15px 25px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-}
-
-div {
-  background-color: #FFFF;
-  font-family: 'Times New Roman', Times, serif;
-  color: black;
-}
-
-a:hover, a:active {
-  background-color: red;
-}
 
     body {
   font-family: 'Open Sans Condensed', sans-serif;
@@ -31,7 +12,8 @@ a:hover, a:active {
 line-height: 1.5;}
 
 h1 {
-  font-family: Helvetica;}
+  font-family: Helvetica;
+font-size: medium;}
 h2 {
     font-family: 'Roboto', sans-serif;}
 
