@@ -1,5 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&family=Roboto:wght@300&display=swap');
 
+<style>
+a:link, a:visited {
+  background-color: #FFFF;
+  color: black;
+  padding: 15px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  background-color: red;
+}
+</style> 
     body {
   font-family: 'Open Sans Condensed', sans-serif;
   font-family: 'Times New Roman' ,
@@ -8,12 +22,7 @@
   background-color: #1643;}
   li, p{
 line-height: 1.5;}
-<style>
-a:link {
-  color: black;
-  background-color: transparent;
-  text-decoration: none;
-} </style>
+
 h1 {
   font-family: Helvetica;}
 h2 {
