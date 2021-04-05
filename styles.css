@@ -7,11 +7,13 @@
   color: black;
   background-color: #1643;} 
 
+  .bg-primary {
+    background-color: #FFF;
+  }
+
   li, p{
 line-height: 1.5;}
-.bg-primary {
-  background-color: #FFF;
-}
+
 h1 {
   font-family: Helvetica;
 font-size: larger;}
