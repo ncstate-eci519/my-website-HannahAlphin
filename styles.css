@@ -10,16 +10,23 @@ a:link, a:visited {
   display: inline-block;
 }
 
+div {
+  background-color: #FFFF;
+  font-family: 'Times New Roman', Times, serif;
+  color: black;
+}
+
 a:hover, a:active {
   background-color: red;
 }
-</style> 
+
     body {
   font-family: 'Open Sans Condensed', sans-serif;
   font-family: 'Times New Roman' ,
          Times, serif; 
   color: black;
-  background-color: #1643;}
+  background-color: #1643;} 
+
   li, p{
 line-height: 1.5;}
 
