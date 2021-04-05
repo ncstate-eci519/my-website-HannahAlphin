@@ -1,6 +1,19 @@
 <!doctype html>
 <html>
 <head>
+  <meta charset="utf-8">
+  <title>show demo</title>
+  <style>
+  div {
+    background: #def3ca;
+    margin: 3px;
+    width: 80px;
+    display: none;
+    float: left;
+    text-align: center;
+  }
+  </style>
+  <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
 <title>Hannahs Website</title>
 <meta name="ed tech tools" content="projects">
 <meta name="list" content="Twine">
@@ -11,6 +24,8 @@
 
 
 <h1>Projects</h1>
+</head>
+<body>
 
 <ul>
 <li><b>Video Research Project:</b>
@@ -36,5 +51,25 @@ If you like to write and are a fan of non-linear storytelling or games, <a href=
 
 <p>As I learn about more Ed Tech Tools, I appreciate how they can be used to develop educational material that is interactive and engaging.</p>
 <a href="page3.html">Next page</a>
+
+<button id="showr">Show</button>
+<button id="hidr">Hide</button>
+<div>Learning</div>
+<div>should</div>
+<div>be</div>
+<div>interactive.</div>
+ 
+<script>
+$( "#showr" ).click(function() {
+  $( "div" ).first().show( "fast", function showNext() {
+    $( this ).next( "div" ).show( "fast", showNext );
+  });
+});
+ 
+$( "#hidr" ).click(function() {
+  $( "div" ).hide( 1000 );
+});
+</script>
+
 </body>
 </html>
