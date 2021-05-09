@@ -25,10 +25,11 @@ margin-left: auto;
 margin-right: auto;
 width: 60%;}
 #me-img{
+  .center {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 60%;}
+  width: 20;}
 
 nav{
     font-family: 'Times New Roman', Times, serif;
