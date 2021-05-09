@@ -66,23 +66,5 @@ If you like to write and are a fan of non-linear storytelling or games, <a href=
 <p>As I learn about more Ed Tech Tools, I appreciate how they can be used to develop educational material that is interactive and engaging.</p>
 <a href="page3.html">Next page</a>
 
-<button id="showr">Show</button>
-<button id="hidr">Hide</button>
-<div>Learning</div>
-<div>should</div>
-<div>be</div>
-<div>interactive.</div>
-</body>
-<script>
-$( "#showr" ).click(function() {
-  $( "div" ).first().show( "fast", function showNext() {
-    $( this ).next( "div" ).show( "fast", showNext );
-  });
-});
- 
-$( "#hidr" ).click(function() {
-  $( "div" ).hide( 1000 );
-});
 </script>
-
 </html>
