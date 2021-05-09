@@ -14,9 +14,7 @@
   li, p{
 line-height: 1.5;}
 
-h1 {
-  font-family: Helvetica;
-font-size: medium;}
+h1 {font-family: 'Roboto', sans-serif;}
 h2 {
     font-family: 'Roboto', sans-serif;}
 ol {
@@ -31,7 +29,6 @@ nav{
     font-family: 'Times New Roman', Times, serif;
     background-color: #FFFF;
     color: #0000;
-    padding: 2px;
   }
   
   nav ul{
@@ -43,5 +40,4 @@ nav{
     display: flex;
     justify-content: space-between;
     background-color:#FFFF;
-    padding: 0 17px;
   }
