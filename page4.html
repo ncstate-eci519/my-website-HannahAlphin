@@ -34,7 +34,7 @@
 
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
-      <li class="nav-item active">
+      <li class="nav-item">
         <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
@@ -45,40 +45,34 @@
         <a class="nav-link" href="page3.html">Links</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="page4.html">Contact</a>
+        <a class="nav-link active" href="page4.html">Contact</a>
       </li>
     </ul>
    
   </div>
 </nav>
 <div class = "outer-wrapper">
-  <img id="me-img" src="https://secure.gravatar.com/avatar/533b3bb72bf66cd8f377ed636b2393dc?s=485" alt="Twine interface of branching scenarios" width="150"
-  height="200">
-<p>I graduated from UNC-Chapel Hill in 2019 and developed an interest for the relationship between learning and technology there. 
-As a result, I decided to apply to the LDT master's program at NCSU. This is my first class I have had on coding and I am excited to 
-learn and utlize this skill. Currently, I work as a Junior Instructional Designer for a company that develops eLearning training material 
-for the military.</p>
-<p> Some facts about me:</p>
-<ul>
-<li>I majored in English and minored in CRDL (<b>C</b>omposition, <b>R</b>hetoric and <b>D</b>igital <b>L</b>iteracy).</li>
-<li>I love animals. I have two dogs (a Boxer and a Jack Russell Terrier).</li>
-<li>I love the outdoors and always enjoy finidng new hiking trails to check out.</li>
-<li>My favorite genre of movies and TV is Sci-Fi.</li>
-</ul>
-
-<h2>My Favorite Ed Tech Tools</h2>
-<ol>
-<li><b>Articulate Storyline 360:</b>
-I am very familar with Storyline 360 because I use it at my job. It is a great software for creating interactive eLearning content.</li>
-<li><b>Camtasia:</b>
-I used Camtasia a lot during my undergrad to edit videos for projects. I like how easy it is to learn and navigate.</li>
-<li><b>Powtoon:</b>
-I have used Powtoon in the past to create animated explainer videos. I enjoy how it allows you to add characters and graphics to make
-your videos more visually interesting.</li>
-</ol>
-<a href="page2.html">Next page</a> 
-</div>
-
+    <form>
+        <div class="form-group">
+          <label for="email">Email
+            address</label>
+          <input type="email" class="form-
+      control" id="email" aria- describedby="emailHelp" placeholder="Enter 
+      email">
+          <small id="emailHelp" class="form-text
+      text-muted">We'll never share your email
+            with anyone else.</small>
+        </div>
+        <div class="form-group" <label for="subject">Subject</label>
+          <input type="text" class="form-control" id="name">
+        </div>
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea id="message” rows=" 5" cols="40" class="form-control"></textarea>
+        </div>
+        <button class="btn btn-lg btn-
+       primary">Submit Message</button>
+      </form>
 
 </div>
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
@@ -90,8 +84,6 @@ crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
 integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
 crossorigin="anonymous"></script>
-
-</script>
-
+<script src="main.js"></script>
 </body>
 </html>

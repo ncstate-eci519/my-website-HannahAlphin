@@ -4,32 +4,42 @@
 <head>
   <meta charset="utf-8">
   <title>show demo</title>
-  <style>
-  div {
-    background: #def3ca;
-    margin: 3px;
-    width: 80px;
-    display: none;
-    float: left;
-    text-align: center;
-  }
-  </style>
+
   <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.bundle.min.js" integrity="sha512-SuxO9djzjML6b9w9/I07IWnLnQhgyYVSpHZx0JV97kGBfTIsUYlWflyuW4ypnvhBrslz1yJ3R+S14fdCWmSmSA==" crossorigin="anonymous"></script>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.min.css" integrity="sha512-/zs32ZEJh+/EO2N1b0PEdoA10JkdC3zJ8L5FTiQu82LR9S/rOQNfQN7U59U9BC12swNeRAz3HSzIL2vpp4fv3w==" crossorigin="anonymous" />
-
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com
+/bootstrap/4.3.1/css/bootstrap.min.css" integrity=
+"sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 <title>Hannahs Website</title>
 <meta name="ed tech tools" content="projects">
 <meta name="list" content="Twine">
 <link rel="stylesheet" href="styles.css">
 </head>
+<body role="main">
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
 
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="page2.html">Projects</a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link" href="page3.html">Links</a>
+      </li>
+    </ul>
+   
+  </div>
+</nav>
 <p>I listed some of my favorite <a href="index.html">Ed Tech Tools</a> and want to provide examples of how I have used them in projects throughout college.</p>
 
 
 <h1>Projects</h1>
-</head>
-<body>
 
 <ul>
 <li><b>Video Research Project:</b>
@@ -62,7 +72,7 @@ If you like to write and are a fan of non-linear storytelling or games, <a href=
 <div>should</div>
 <div>be</div>
 <div>interactive.</div>
- 
+</body>
 <script>
 $( "#showr" ).click(function() {
   $( "div" ).first().show( "fast", function showNext() {
@@ -75,5 +85,4 @@ $( "#hidr" ).click(function() {
 });
 </script>
 
-</body>
 </html>
